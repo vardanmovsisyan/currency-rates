@@ -1,0 +1,26 @@
+@import "~normalize.css/normalize.css";
+@import "./styles/variables";
+*{
+    font-family: Tahoma, Roboto, Arial;
+    margin: 0;
+    padding: 0;
+}
+.router {
+    max-width: $extraExtraLargeDisplay;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+}
